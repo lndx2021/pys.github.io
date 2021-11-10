@@ -24,7 +24,19 @@
         }
     </style>
     <div id="bodyDiv">
-        <p style="text-align: center; background ="backcolor";" id="imgBg"><br><img src="./出校通行证(2分钟内有效)_files/pass2.png" alt=""><br><br></p>
+        <p style="text-align: center; background ="backcolor";" id="imgBg"><br><img src="./出校通行证(2分钟内有效)_files/pass2.png" alt=""></p>
+        <p style="text-align: center; background: rgb(132, 135, 28);"><br>
+          <br>
+        </p>
+        <script type="text/javascript">
+                            var t = new Date();
+                            var hour = t.getHours();
+                            var minute = t.getMinutes();
+                            var second = t.getSeconds();
+                            var nowTime = hour + ((minute < 10) ? ":0" : ":") + minute + ((second < 10) ? ":0" : ":") + second;
+                            document.write(nowTime);
+                        </script>
+                    </p>
         <div class="weui-cells__title">学生出校通行证</div>
         <div class="weui-cells">
             <div class="weui-cell  weui-cell_example">
