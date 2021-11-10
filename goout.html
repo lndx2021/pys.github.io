@@ -23,18 +23,16 @@
             border: none;
         }
     </style>
-    <div id="bodyDiv">
-        <p style="text-align: center; background ="backcolor";" id="imgBg"><br><img src="./出校通行证(2分钟内有效)_files/pass2.png" alt=""></p>
-        <p>
-        <script type="text/javascript">
-                            var t = new Date();
+    <script type="text/javascript">  
+                        var t = new Date();
                             var hour = t.getHours();
                             var minute = t.getMinutes();
                             var second = t.getSeconds();
                             var nowTime = hour + ((minute < 10) ? ":0" : ":") + minute + ((second < 10) ? ":0" : ":") + second;
-                            document.write(nowTime);
-                        </script>
-                    <p>
+    </script>
+    <div id="bodyDiv">
+        <p style="text-align: center; background ="backcolor";" id="imgBg"><br><img src="./出校通行证(2分钟内有效)_files/pass2.png" alt=""></p>
+        <p stle="text-align:center;background="backcolor";" text="nowtime" alt=""></p>
         <p style="text-align: center; background ="backcolor";"><br>
           <br>
         
