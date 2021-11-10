@@ -5,6 +5,7 @@ if( h >=9 && h<10 )backcolor="maroon";
 if( h >=10 && h <11 )backcolor="teal"; 
 if( h >=11 && h <12 )backcolor="olive"; 
 if( h >=12 && h <13 )backcolor="purple"; 
+if( h >=13 && h <14 )backcolor="gray"; 
 if( h >=17 && h <18 )backcolor="lime"; 
 if( (h >=19 && h<=24) || (h>=0 && h<=6) )backcolor="black";//夜晚黑
 document.getElementById("imgBg").style.background = backcolor;
